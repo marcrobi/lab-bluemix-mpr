@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: lab-bluemix-mpr
+  host: lab-bluemix-mpr
+  disk_quota: 1024M
+  services:
+  - Redis Cloud-lz
+  buildpack: python_buildpack
